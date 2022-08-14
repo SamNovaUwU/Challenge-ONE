@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripta tus textos </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+   <script type="text/javascript" src="script.js"> </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg" src="source/Vector.png" alt="logoalura">
+            <h1 class="tittle"> Encriptador de mensajes </h1>
+        </div>
+        <div class="left">
+            <input class="input-text" id="input-text" type="text" placeholder="Ingrese el texto a encriptar">
+        </div>
+        <div class="right">
+            <img src="source/Muñeco.png" alt="encriptador" id="imgriGht">
+            <h1 id="textaso">Ningun mensaje encontrado</h1>
+            <textarea name="name" id="textaso2" cols="80"
+                rows="8">Ingrese el texto que desee desencriptar</textarea>
+            <button id="copy" type="button" name="copbtn" onclick="copiar()">Copiar </button>
+        </div>
+        <div class="left-button">
+            <p class="instruc"> Solo minusculas y sin tildes o caracteres especiales </p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()"> Encriptar </button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+
+        </div>
+
+        <!--div class="buttomrigth">
+            <h1> boton derecho </h1>
+        </div-->
+
+    </div>
+</body>
+<footer> Realizado por Sam </footer>
+</html>
